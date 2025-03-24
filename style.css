@@ -1,59 +1,100 @@
-body {
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f4f4f4;
-  color: #333;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Riya Nimmala | BI Analyst</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
 
-header.hero {
-  background: #002244;
-  color: white;
-  padding: 4rem 2rem;
-  text-align: center;
-}
+  <header>
+    <img src="assets/riya-profile.jpg" alt="Riya Nimmala" class="profile-img"/>
+    <h1>Riya Nimmala</h1>
+    <p>Business Intelligence Analyst | Power BI | SQL | AWS</p>
+    <a href="assets/resume.pdf" download class="btn">Download Resume</a>
+  </header>
 
-.btn {
-  background: #00c2ff;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-}
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a detail-oriented BI Analyst with experience in Power BI, SQL, ETL, and AWS. I design dashboards, optimize data pipelines, and deliver actionable insights across finance, operations, and customer analytics.</p>
+  </section>
 
-section {
-  padding: 3rem 2rem;
-}
+  <section id="projects">
+    <h2>Projects</h2>
 
-h2 {
-  color: #002244;
-  margin-bottom: 1rem;
-}
+    <div class="card">
+      <h3>📊 Financial & Customer Insights Dashboard</h3>
+      <p>Analyzes churn, ROI, fraud flags using Power BI and Snowflake schema.</p>
+      <a href="https://github.com/riyareddy07/FINANCE-CUSTOMER-INSIGHTS-DASHBOARD" target="_blank">View Project</a>
+    </div>
 
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-}
+    <div class="card">
+      <h3>🚗 Uber Ride Data Analysis</h3>
+      <p>ETL pipeline with BigQuery & Looker; visualized fare trends and user behavior.</p>
+      <a href="https://github.com/riyareddy07/UberRide_Data-Analysis" target="_blank">View Project</a>
+    </div>
 
-.project-card {
-  background: white;
-  padding: 1rem;
-  border-left: 4px solid #002244;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
+    <div class="card">
+      <h3>📈 Sales Dashboard</h3>
+      <p>Analyzed sales by region, shipping, payment methods; forecasted 15-day trends.</p>
+      <a href="https://github.com/riyareddy07/Sales-Dashboard" target="_blank">View Project</a>
+    </div>
 
-.skills-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
+    <div class="card">
+      <h3>🧠 Talent Analytics Dashboard</h3>
+      <p>Tracked attrition by role, salary, age, department using DAX & Time Intelligence.</p>
+      <a href="https://github.com/riyareddy07/Talent-Analytics-Dashboard" target="_blank">View Project</a>
+    </div>
 
-.skills-list li {
-  background: #002244;
-  color: white;
-  padding: 8px 12px;
-  border-radius: 4px;
-  list-style: none;
-}
+    <div class="card">
+      <h3>💰 Financial Analysis Dashboard</h3>
+      <p>Analyzed profit margins, discounts, YoY trends; applied anomaly detection in DAX.</p>
+      <a href="https://github.com/riyareddy07/financial-analysis-powerbi-dashboard" target="_blank">View Project</a>
+    </div>
+
+    <div class="card">
+      <h3>📦 Business & Sales Dashboard</h3>
+      <p>Built using Star Schema; covers revenue, returns, satisfaction, and stock insights.</p>
+      <a href="https://github.com/riyareddy07/Business-and-Sales-Dashboard" target="_blank">View Project</a>
+    </div>
+
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Quality Management Intern – Garver (2025–Present):</strong> Built Power BI dashboards, .NET QC portal, and optimized workload reports.</li>
+      <li><strong>Data Analyst – Adept Technologies (2024):</strong> Automated financial dashboards, optimized ETL, integrated AWS Redshift & S3.</li>
+      <li><strong>GTA & Research Intern – UCM (2023):</strong> Mentored 60+ students in Power BI, received Best TA Leadership Award.</li>
+      <li><strong>Data Analyst – Think Roman (2022–2023):</strong> Built 10 healthcare dashboards, improved accuracy using SQL & Python.</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>Power BI</li>
+      <li>SQL</li>
+      <li>DAX</li>
+      <li>AWS (Redshift, S3, Glue)</li>
+      <li>ETL</li>
+      <li>Data Modeling</li>
+      <li>Python</li>
+      <li>Time Intelligence</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><i class="fa fa-envelope"></i> riyanimmala7@gmail.com</p>
+    <p><i class="fab fa-github"></i> <a href="https://github.com/riyareddy07" target="_blank">riyareddy07</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Riya Nimmala</p>
+  </footer>
+
+</body>
+</html>
